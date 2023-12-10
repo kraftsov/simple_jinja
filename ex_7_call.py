@@ -18,6 +18,7 @@ html = '''
 {% endmacro %}
 
 {{list_users(users_list)}}
+
 '''
 
 tm = Template(html)

@@ -20,9 +20,9 @@ link = '''<select name="cities">
 </select>
 '''
 
-# tm = Template(link)
-# msg = tm.render(cities=cities)
+tm = Template(link)
+msg = tm.render(cities=cities)
 
-msg = Template(link).render(cities=cities)
+# msg = Template(link).render(cities=cities)
 
 print(msg)
