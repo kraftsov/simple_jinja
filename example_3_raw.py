@@ -12,6 +12,8 @@ templ = Template(
 
 templ_link = Template("Ссылка будет экранирована и будут выведены символы:\n{{link | e}}")
 
+
 print(templ.render(name=name))
 print()
 print(templ_link.render(link=link))
+print()
