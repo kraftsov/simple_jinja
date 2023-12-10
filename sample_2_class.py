@@ -11,6 +11,6 @@ person = Person("Вася", 25)
 
 templ = Template('Здравствуйте, меня зовут {{ p.name }}, мне {{ p.age }} лет.')
 
-msg = templ.render(p=person, name=person.name, age=person.age)
+msg = templ.render(p=person)
 
 print(msg)
