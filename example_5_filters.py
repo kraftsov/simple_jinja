@@ -20,7 +20,7 @@ print(msg2)
 
 ###
 
-person = [
+persons = [
     {"name": "Вася", "old": 25, "weight": 75},
     {"name": "Петя", "old": 30, "weight": 65},
     {"name": "Маша", "old": 28, "weight": 80},
@@ -35,6 +35,6 @@ person_tmpl = '''
 '''
 
 tm = Template(person_tmpl)
-msg_1 = tm.render(crowd=person)
+msg_1 = tm.render(crowd=persons)
 
 print(msg_1)
